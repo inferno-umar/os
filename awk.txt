@@ -1,0 +1,95 @@
+ Experiment No : 03
+
+                                            Aim : AWK Commands
+
+                                                                                    Name: 
+                                                                                    Roll No: 
+                                                                                    Batch: 03
+                                                                                    Academic Year: 2022-23
+                                                                                    Sem - 4
+
+
+Rayn 55000
+Sam clerk sales 1000
+Bushra Lead 35000
+Bhatkar Kahkasha Student 45000
+Roy clerk sales 10000
+Naziya Ansari lead 50000
+Mohammed Student 60000
+
+
+1] $ awk '{print}' EXP1_awk.txt
+
+Output :
+
+Rayn 55000
+Sam clerk sales 1000
+Bushra Lead 35000
+Bhatkar Kahkasha Student 45000
+Roy clerk sales 10000
+Naziya Ansari lead 50000
+Mohammed Khan Student 60000
+
+
+2] $ awk '/Lead/ {print}' EXP1_awk.txt 
+
+Output : 
+
+Naziya Ansari lead 50000
+Bushra Lead 35000
+
+
+3] $ awk '/clerk/ {print}' EXP1_awk.txt 
+
+Output :
+
+Sam clerk sales 1000
+Roy clerk sales 10000
+
+4] $ awk '/Student/ {print}' EXP1_awk.txt 
+
+Output : 
+
+Bhatkar Kahkasha Student 45000
+Mohammed Khan Student 60000
+
+5] $ awk '{print $1,$4}' COllege.txt 
+
+Output :
+
+Kahkasha 45000
+Rayn 10000
+Bushra 35000
+Mohammed 60000
+
+6] $ awk '{print NR,$0}' EXP1_awk.txt 
+
+Output :
+
+1 Rayn 45000
+Sam clerk sales 1000
+Bushra Lead 35000
+Bhatkar Kahkasha Student 45000
+Roy clerk sales 10000
+Naziya Ansari lead 50000
+Mohammed Khan Student 60000
+
+7] $ awk 'NR==3, NR==6 {print NR,$0}' EXP1_awk.txt 
+
+Output:  
+
+2 Sam clerk sales 1000
+3 Bushra Lead 35000
+4 Bhatkar Kahkasha Student 45000
+5 Roy clerk sales 10000
+
+8) To print the squares of first numbers from 1 to n say 6:  
+
+$ awk 'BEGIN { for(i=1;i<=6;i++) print "square of", i, "is",i*i; }' 
+
+square of 1 is 1
+square of 2 is 4
+square of 3 is 9
+square of 4 is 16
+square of 5 is 25
+square of 6 is 36

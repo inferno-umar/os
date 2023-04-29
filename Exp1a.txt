@@ -1,0 +1,174 @@
+
+/*                                                                EXPERIMENT NO 1:- LINUX COMMANDS 
+                                                                   
+                                                                       NAME:-
+                                                                       ROLL NO:-
+                                                                       Batch :-03
+                   
+
+
+                                                                                                                    
+
+*/
+
+
+1. pwd command
+
+Use the pwd command to find the path of your current working directory.
+
+2. cd command
+
+To navigate through the Linux files and directories, use the cd command.
+
+3.  ls command
+
+The ls command lists files and directories within a system.
+
+4.  cat command
+
+Concatenate, or cat, is one of the most frequently used Linux commands. It lists, combines, and writes file content to the standard output.
+
+5. cp command
+
+Use the cp command to copy files or directories and their content.
+
+6. mv command
+
+The primary use of the mv command is to move and rename files and directories. Additionally, it doesn’t produce an output upon execution.
+
+7. mkdir command
+
+Use the mkdir command to create one or multiple directories at once and set permissions for each of them. 
+
+8. rmdir command
+
+To permanently delete an empty directory, use the rmdir command.
+
+9.  rm command
+
+The rm command is used to delete files within a directory. Make sure that the user performing this command has write permissions.
+
+10.  touch command
+
+The touch command allows you to create an empty file or generate and modify a timestamp in the Linux command line.
+
+11.  locate command
+
+The locate command can find a file in the database system.
+
+12. find command
+
+Use the find command to search for files within a specific directory and perform subsequent operations. 
+
+13. grep command
+
+Another basic Linux command on the list is grep or global regular expression print. It lets you find a word by searching through all the texts in a specific file.
+
+14. df command
+
+Use the df command to report the system’s disk space usage, shown in percentage and kilobyte (KB).
+
+15. du command
+
+If you want to check how much space a file or a directory takes up, use the du command.
+
+16.  head command
+
+The head command allows you to view the first ten lines of a text. Adding an option lets you change the number of lines shown.
+
+17. tail command
+
+The tail command displays the last ten lines of a file. It allows users to check whether a file has new data or to read error messages.
+
+18.  diff command
+
+Short for difference, the diff command compares two contents of a file line by line. After analyzing them, it will display the parts that do not match.
+
+19. tar command
+
+The tar command archives multiple files into a TAR file – a common Linux format similar to ZIP, with optional compression.
+
+20. chmod command
+
+chmod is a common command that modifies a file or directory’s read, write, and execute permissions.
+
+21.  chown command
+
+The chown command lets you change the ownership of a file, directory, or symbolic link to a specified username.
+
+22. jobs command
+
+A job is a process that the shell starts. The jobs command will display all the running processes along with their statuses. 
+
+23.  kill command
+
+Use the kill command to terminate an unresponsive program manually. It will signal misbehaving applications and instruct them to close their processes.
+
+24. ping command
+
+The ping command is one of the most used basic Linux commands for checking whether a network or a server is reachable.
+
+25. wget command
+
+The Linux command line lets you download files from the internet using the wget command. It works in the background without hindering other running processes.
+
+26. uname command
+
+The uname or unix name command will print detailed information about your Linux system and hardware. 
+
+27. top command
+
+The top command in Linux Terminal will display all the running processes and a dynamic real-time view of the current system.
+
+28. history command
+
+With history, the system will list up to 500 previously executed commands, allowing you to reuse them without re-entering.
+
+29. man command
+
+The man command provides a user manual of any commands or utilities you can run in Terminal, including the name, description, and options.
+
+30. echo command
+
+The echo command is a built-in utility that displays a line of text or string using the standard output. 
+
+31. zip, unzip commands
+
+Use the zip command to compress your files into a ZIP file, a universal format commonly used on Linux. It can automatically choose the best compression ratio.
+The zip command is also useful for archiving files and directories and reducing disk usage.
+
+32. hostname command
+
+Run the hostname command to know the system’s hostname. You can execute it with or without an option.
+
+33. useradd, userdel commands
+
+ useradd is used to create a new account, while the passwd command allows you to add a password Only those with root privileges or sudo can run the useradd command.
+
+34. apt-get command
+
+apt-get is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. 
+
+35. su command
+
+The switch user or su command allows you to run a program as a different user. It changes the administrative account in the current log-in session.
+
+36. ps command
+
+The process status or ps command produces a snapshot of all running processes in your system. 
+
+37. exit Command
+
+The exit command does exactly what its name suggests: With it, you can end a shell session and, in most cases, automatically close the terminal you’re using:
+
+38. sudo Command
+
+This command stands for “superuser do,” and it lets you act as a superuser or root user while you’re running a specific command.
+
+39. shutdown Command
+
+As you may guess, the shutdown command lets you power off your machine. 
+
+40. top Command
+
+htop is an interactive process viewer that lets you manage your machine’s resources directly from the terminal. 
